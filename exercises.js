@@ -20,7 +20,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   */
 
   // Modify the line of code BELOW to run a different exercise
-  exercise_01();
+  exercise_06();
   // Modify the line of code ABOVE to run a different exercise
 }
 
@@ -39,7 +39,12 @@ function exercise_01() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+ let var1 = 5;
+ let var2 = 10;
+ if(var2>var1)
+ {
+  console.log("var2 is greater than var1");
+ }
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -59,7 +64,15 @@ function exercise_02() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+   let var1 = 5;
+ let var2 = "10";
+ if(var2 === var1)
+ {
+  console.log("Both are same");
+ }
+ else{
+  console.log("not equal");
+ }
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -85,7 +98,23 @@ function exercise_03() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+
+ let var2 = 10;
+ if(var2 % 2 === 0)
+ {
+  console.log("Even");
+ }
+  else{
+  console.log("odd");
+ }
+ var2 = 5;
+if(var2 !== 0)
+{
+ console.log("odd");
+}
+ else{
+  console.log("even");
+ }
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -110,7 +139,13 @@ function exercise_04() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+  let var1 = 15;
+
+  if(var1 >=10 && var1 <=20)
+  {
+    console.log(" Between 10 and 20");
+  }
+
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -135,7 +170,14 @@ function exercise_05() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+  let color = "blue";
+  if(color === "red" || color ==="blue")
+  {
+    console.log("color is red or blue");
+  }
+  else{
+    console.log("color is not either red or blue");
+  }
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -157,7 +199,12 @@ function exercise_06() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+  const isTruthy = (name, exp) => {
+  console.log(`${name}: ${Boolean(exp)}`);
+}
+
+ isTruthy("val1", 0);
+ console.log(isTruthy);
 
   // CODE IN THE OPEN LINES ABOVE
 }
